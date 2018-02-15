@@ -1,0 +1,148 @@
+*{
+  background-color: #1f2e2e;
+
+}
+h1{
+  position: relative;
+  font-family:monospace;
+  letter-spacing: 17px;
+  font-stretch: 20px;
+  padding: 14px;
+  align:center;
+  border: 8px solid #0f6366;
+  color: #98b8b9;
+  text-align: center;
+  border-radius: 50px 50px 0px 0px;
+  box-shadow: 10px 5px 20px 2px #555252;
+  margin-left: 200px;
+  margin-right: 200px;
+ }
+ h1:hover{
+   box-shadow: 13px 5px 22px 3px #555252;
+   background-color: #233333;
+ }
+ .Src{
+   Float:right;
+   margin-right: 180px;
+ }
+ .Src-Btn{
+   font-size-adjust: auto;
+   margin-left: 2px;
+   margin-right: 20px;
+   border: 2px solid #771e0a;
+   border-radius: 0px 50px 50px 0px;
+   background-color: #2f2f28;
+
+ }
+ .Src-Btn:hover{
+   border: 2px solid #41eb0d;
+   border-radius: 0px 50px 50px 0px;
+   background-color: #3f6119;
+ }
+ .profil{
+   image-orientation: center;
+   text-align: center;
+   letter-spacing: 5px;
+   color: #98b8b9;
+   border: 8px solid #0c9557;
+   padding: 15px;
+   border-style: solid;
+   border-radius: 0px;
+   margin-left: 200px;
+   margin-right: 200px;
+   box-shadow: 10px 5px 20px 2px #555252;
+ }
+ .profil:hover{
+   box-shadow: 13px 5px 22px 3px #555252;
+   background-color: #233333;
+   /*Pri hover mi pod textom kaže barvo ozadja. To pri h1 ne dela*/
+ }
+ .profile-image{
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+   border: 3px solid #0f6366;
+   padding: 4px;
+   border-radius: 100%;
+   max-width: 50%;
+   max-height: 50%;
+ }
+ .profile-image:hover{
+   opacity: 1.0;
+   filter: alpha(opacity=100);
+ }
+ .btn1{
+   color:#98b8b9;
+   float: left;
+   display:block;
+   margin-left: 200px;
+   font-size: 15;
+   font-family: monospace;
+   padding: 9px;
+   border-radius: 50px;
+   border:4px solid #0f6366;
+   background-color: #2f2f28;
+   box-shadow: 5px 5px 7px 0px #555252;
+ }
+.btn1:hover{
+  border: 2px solid #41eb0d;
+  background-color: #3f6119;
+}
+.btn2{
+  color:#98b8b9;
+  float:right;
+  display: block;
+  margin-right:200px;
+  font-size: 15;
+  font-family: monospace;
+  padding: 9px;
+  border-radius: 50px;
+  border:4px solid #0f6366;
+  background-color: #2f2f28;
+  box-shadow: 5px 5px 7px 0px #555252;
+}
+.btn2:hover{
+  border: 2px solid #de3d32;
+  background-color: rgba(159, 16, 12, 0.38);
+}
+.data{
+  float:bottom;
+  color:white;
+  font-family: serif;
+  letter-spacing: 2px;
+  border: 8px solid #9a9f38;
+  border-radius: 0px 0px 50px 50px;
+  padding-left: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 10px 5px 20px 2px #555252;
+  /*tukaj se vidi ozadnje pod textom v desnem kotu spodaj na obrobi
+  in če greš z miško v okno se vidijo te črte pod textom, ki jih nikakor ne 
+  znam odpravit. Tudi večurno iskanje je bilo neuspešno*/
+ }
+ .data:hover{
+   box-shadow: 13px 5px 22px 3px #555252;
+   background-color: #233333;
+ }
+ #omeni{
+   margin: 5px;
+   text-align: center;
+   border:2px solid #9a9f38;
+   border-radius: 50px;
+   padding: 10px 10px;
+   align:center;
+   margin:10px;
+   margin-left:-5px;
+
+ }
+ #omeni:hover{
+   background-color:rgba(149, 152, 72, 0.31);
+ }
+a:link{
+  color:#0c9557;
+}
+a:visited{
+  color:white;
+}
+a:hover{
+  color:#1df479
+}
